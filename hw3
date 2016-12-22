@@ -1,0 +1,41 @@
+1)first pull the code which is having merge conflict and open the code file,remove  <<<<< HEAD,=====,>>>>>,then stage the file and commit by giving  appropriate message,now pull the code after successfully completion of that push the code.
+2)HTML stands for Hypertext Markup Language, and it is the most widely used language to write Web Pages.
+
+Hypertext refers to the way in which Web pages (HTML documents) are linked together. Thus the link available on a webpage are called Hypertext.
+ Markup Language which means we use HTML to simply "mark up" a text document with tags that tell a Web browser how to structure it to display.
+
+How to create a html document?
+ A basic html page is created by using the f0llowing tags.
+<!DOCTYPE...>	This tag defines the document type and HTML version.
+<html>	This tag encloses the complete HTML document and mainly comprises of document header which is represented by <head>...</head> and document body which is represented by <body>...</body> tags.
+<head>	This tag represents the document's header which can keep other HTML tags like <title>, <link> etc.
+<title>	The <title> tag is used inside the <head> tag to mention the document title.
+<body>	This tag represents the document's body which keeps other HTML tags like <h1>, <div>, <p> etc.
+  we can also use many other tags like headings,paragraphs and lists.
+
+3)<!DOCTYPE...>	This tag defines the document type and HTML version
+
+4)tagname will provide meaning to the content.(we wont see tagname in the webpage).
+
+  element:An HTML element is defined by a starting tag. If the element contains other content, it ends with a closing tag, where the element name is preceded by a forward slash as shown below with few tags:
+
+Start Tag	Content          	End Tag
+<p>	    This is paragraph content.	</p>
+<h1>	    This is heading content.	</h1>
+<div>	    This is division content.	</div>
+<br />		
+So here <p>....</p> is an HTML element, <h1>...</h1> is another HTML element. There are some HTML elements which don't need to be closed, such as <img.../>, <hr /> and <br /> elements. These are known as void elements.
+
+
+5)within the open tag..if we wish to add more inforamation..we use attributtes.
+
+6)<!DOCTYPE html>
+<html>
+<head>
+<title>This is document title</title>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>Document content goes here.....</p>
+</body>
+</html>
